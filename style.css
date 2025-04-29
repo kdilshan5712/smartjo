@@ -226,14 +226,14 @@ footer {
   font-size: 1.1rem;
 }
 
-nav {
+/* nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
   background: #007bff;
   color: white;
-}
+} */
 
 .logo-container {
   display: flex;
