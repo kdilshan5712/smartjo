@@ -22,3 +22,11 @@ document.getElementById('contactForm').addEventListener('submit', function (e) {
 
   window.open(whatsappURL, '_blank');
 });
+<script>
+  const toggle = document.getElementById('mobile-menu');
+  const navLinks = document.getElementById('nav-links');
+
+  toggle.addEventListener('click', () => {
+    navLinks.classList.toggle('show');
+  });
+</script>
