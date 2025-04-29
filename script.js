@@ -14,7 +14,7 @@ document.getElementById('contactForm').addEventListener('submit', function (e) {
   const email = document.getElementById('email').value.trim();
   const message = document.getElementById('message').value.trim();
 
-  const phoneNumber = "94760811862"; // Replace with your number, like 94771234567 (without + or 0)
+  const phoneNumber = "94783946275"; 
   
   const fullMessage = `Hello! I'm ${name} (${email})%0A${message}`;
   
