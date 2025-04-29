@@ -238,7 +238,11 @@ nav {
 .logo-container {
   display: flex;
   align-items: center;
+  justify-content: flex-start;
+  height: 32px;            /* small height to match image */
+  gap: 6px;                /* space between image and text */
 }
+
 
 .logo-img {
   width: 28px;
