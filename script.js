@@ -5,3 +5,20 @@ document.getElementById('buyButton').addEventListener('click', () => {
 document.getElementById('mobile-menu').addEventListener('click', () => {
   document.getElementById('nav-links').classList.toggle('active');
 });
+
+
+document.getElementById('contactForm').addEventListener('submit', function (e) {
+  e.preventDefault();
+  
+  const name = document.getElementById('name').value.trim();
+  const email = document.getElementById('email').value.trim();
+  const message = document.getElementById('message').value.trim();
+
+  const phoneNumber = "94760811862"; // Replace with your number, like 94771234567 (without + or 0)
+  
+  const fullMessage = `Hello! I'm ${name} (${email})%0A${message}`;
+  
+  const whatsappURL = `https://wa.me/${phoneNumber}?text=${fullMessage}`;
+
+  window.open(whatsappURL, '_blank');
+});
