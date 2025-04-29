@@ -1,4 +1,3 @@
 document.getElementById('buyButton').addEventListener('click', () => {
-    alert('Thank you for your interest in Smart Jo! Pre-orders open soon.');
-  });
-  
+  window.location.href = "https://your-preorder-link.com"; // Change this to your real link
+});
