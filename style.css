@@ -241,14 +241,12 @@ nav {
 }
 
 .logo-img {
-  width: 10%;
-  height: 10%;
+  width: 28px;
+  height: 28px;
   border-radius: 50%;
-  margin-right: 8px;
   object-fit: cover;
-  background-color: white;
-  padding: 2px;
 }
+
 
 .logo-text {
   font-weight: bold;
