@@ -226,3 +226,53 @@ footer {
   font-size: 1.1rem;
 }
 
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background: #007bff;
+  color: white;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo-img {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  margin-right: 10px;
+  object-fit: cover;
+  background-color: white;
+  padding: 3px;
+}
+
+.logo-text {
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: white;
+}
+
+#nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+#nav-links li a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+}
+
+.menu-toggle {
+  display: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: white;
+}
+
+
